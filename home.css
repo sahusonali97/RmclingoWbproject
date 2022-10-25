@@ -1,0 +1,477 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+html {
+    font-family: sans-serif;
+}
+
+.navbar {
+    padding: 10px 10px;
+    position: fixed;
+    font-family: calibri;
+    background-color: rgb(98, 98, 138);
+}
+.navbarA {
+    background-color: #FFC10C;
+    height: 20px;
+    text-align: center;
+    padding: 11px;
+}
+
+.navbar-inner {
+    position: relative;
+    list-style-type:none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow:hidden;
+}
+
+.logo img {
+    width: 100px
+}
+
+
+.square{
+    border: solid 2px rgb(75, 91, 138);
+    height: 50px;
+    background-color: rgb(87, 117, 218);
+    
+}
+
+.navbar-inner li {
+    list-style-type: none;
+    /*to remove the list type bulletin points*/
+}
+
+.navbar-inner a {
+    text-decoration: none;
+    /* to remove the underline of the anchor tag*/
+    color: black;
+}
+
+.get-in-touch {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.gin-btn {
+    border: rgb(137, 6, 243) 2px solid;
+    padding: 10px;
+    color: rgb(253, 10, 10) !important;
+    /* when you use !imporatant it will overriden the color red*/
+    transition: all .5s 0s linear;
+}
+
+.gin-btn:hover {
+    background-color:orange;
+    color: black !important;
+    transform: translateY(3px);
+}
+
+.navlinks > ul  {
+    display: none;
+}
+
+.navlinks > li:hover > ul {
+    display: block !important; 
+}
+
+ul .navlinks {
+    list-style-type:none !important;
+    overflow:hidden !important;
+}
+
+.navlinks > li  a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Comic Sans Ms';
+}
+
+.navlinks > li {
+    background: -webkit-linear-gradient(gray,black);
+    width: 100px;
+    display: block;
+    position: relative;
+    float: left;
+    text-align:center;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+/* .navlinks > li:hover {
+    display:block;
+    cursor: pointer;
+    background: gray;
+} */
+
+.navlinks ul li:hover ul{
+    display:block !important;
+    cursor: pointer;
+    background: gray;
+}
+
+.navlinks ul {    
+    list-style:none ;
+}
+
+
+.navlinks > ul{
+    display: none;
+}
+
+
+/* header section design*/
+
+.header {
+    display:flex;
+    line-height: 30px;
+    justify-content: space-evenly;
+    font-family: calibri;
+    padding: 10px 40px;
+    background-image:url(images/NbannerA.jpg) ;
+    width: 1268x;
+    height: 400px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header h2 {
+    font-size: 35px;
+    margin-bottom: 30px;
+    line-height: 40px;
+}
+
+.header p {
+    font-size: 21px;
+}
+
+.header-inner2 img {
+    width: 400px;
+}
+.header-inner1{
+    border:1px solid #add;
+    border-radius: 8px;
+    width:350px;
+    height:400px;
+}
+
+.btn {
+    background-color: rgb(255, 0, 76);
+    padding: 10px 20px;
+    color: rgb(252, 249, 249) !important;
+    text-decoration: none;
+    display: block;
+    width: 110px;
+    text-align: center;
+    transition: all .1s 0s linear;
+}
+
+.btn:hover {
+    box-shadow: 5px 5px 10px rgb(92, 92, 92);
+    transform: translateY(-5px);
+}
+
+
+/*chatbot design */
+
+.chatbot {
+    background-color: rgba(232, 88, 124, 0.865);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    display: fixed;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+}
+
+.cards{
+    padding-top: 80px;
+    background-color:#c7c6c4
+}
+
+
+/*card design of home page*/
+
+.card-inner {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.contact {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px 0px;
+    background-color:wheat;
+}
+
+.mail,
+.phone {
+    font-size: 20px;
+    bottom: 20px;
+    right: 40px;
+    background-color: #c7c6c4;
+}
+
+.mail i,
+.phone i {
+    font-size: 50px;
+    border-bottom-left-radius: 20px;
+}
+
+.mail p,
+label,
+.phone p,
+label {
+    text-align: right;
+    display: inline-block;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 40px;
+    background-color: grey;
+    align-items: center;
+    color: azure;
+    line-height: 30px;
+    height: 350px;
+}
+
+.footer li {
+    list-style-type: none;
+}
+.footerA {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 40px;
+    background-color:#d6a834;
+    align-items: center;
+    color: azure;
+    line-height: 30px;
+    height: 350px;
+}
+
+.footerA li {
+    list-style-type: none;
+}
+.main-img{ 
+    width: 1500px;
+    height:1000px;      
+    padding: 0px;
+    margin: 0PX;  
+    object-position:center;  ;
+   
+
+}
+.footerA {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 40px;
+    background-color: rgb(8, 2, 66);
+    align-items: center;
+    color: rgb(250, 250, 250);
+    line-height: 30px;
+    height: 150px;
+}
+.footer li{
+    list-style: none;
+}
+.main-img{
+    background-image:url(NbannerA.jpg) ;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.footerB {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 40px;
+    background-color:#d8cdb3;
+    align-items: center;
+    color: rgb(13, 14, 14);
+    line-height: 30px;
+    height: 350px;
+}
+
+.footerB li {
+    list-style-type: none;
+}
+ul{
+    margin: 0;
+    padding:0;
+    list-style: none;
+}
+ul li {
+    text-align: center;
+    font-size:18px;
+}
+ul li a {
+    text-decoration: none;
+    color:white;
+    display: block;
+}
+ul li a:hover{
+    background-color: rgb(59, 9, 241);
+}
+ul li ul li{
+    display:none;
+}
+ ul li:hover ul li{
+    display: block;       
+ }
+ img{
+    border-radius: 10px;
+ }
+
+
+
+ @import url('https://fonts.googleapis.com/css2?family=Yaldevi:wght@400;600&display=swap');
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Yaldevi', sans-serif;
+}
+span{
+  color: #fc5c65;
+  font-weight:900;
+
+}
+
+footer{
+  background: #f51313;
+  padding: 90px 0;
+}
+
+.footer-container{
+  max-width: 1300px;
+  margin: auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+}
+
+.logo{
+  width: 180px;
+}
+
+.social-media{
+  margin: 20px 0;
+  background-color: turquoise;
+}
+
+.social-media a{
+  color: #001a21;
+  margin-right: 25px;
+  font-size: 22px;
+  text-decoration: none;
+  transition: .3s linear;
+  
+}
+
+.social-media a:hover{
+  color: #fc5c65;
+}
+
+.right-col h1{
+  font-size: 26px;
+}
+
+.border{
+  width: 100px;
+  height: 4px;
+  background: #fc5c65;
+}
+
+.newsletter-form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+margin-left: 50px;
+}
+
+.txtb{
+  flex: 1;
+  padding: 18px 40px;
+  font-size: 16px;
+  color: #293043;
+  background: rgb(233, 147, 147);
+  border: none;
+  font-weight: 700;
+  outline: none;
+  border-radius: 30px;
+  min-width: 260px;
+}
+
+.btn{
+  padding: 18px 40px;
+  font-size: 16px;
+  color: #8dd9fc;
+  background: #fc5c65;
+  border: none;
+  font-weight: 700;
+  outline: none;
+  border-radius: 30px;
+  margin-left: 20px;
+  cursor: pointer;
+  transition: opacity .3s linear;
+}
+
+.btn:hover{
+  opacity: .7;
+}
+
+.page-content{
+  min-height: 100vh;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width:960px) {
+  .footer-container{
+    max-width: 600px;
+  }
+  .right-col{
+    width: 100%;
+    margin-bottom: 60px;
+  }
+
+  .left-col{
+    width: 100%;
+    text-align: center;
+  }
+}
+
+
+@media screen and (max-width:700px){
+  .btn{
+    margin: 0;
+    width: 100%;
+    margin-top: 20px;
+    }
+}
+
+
+
+
+
+
+ 
